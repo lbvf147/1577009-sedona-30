@@ -12,10 +12,10 @@
     <img src="https://via.placeholder.com/150x100" alt="Логотип сайта «Седона»">
    </a>
    <ul>
-       <li><a href="index.html">Информация</a></li>
+       <li><a href="#">Информация</a></li>
        <li><a href="#">Фото и видео</a></li>
        <li><a href="#">Карта штата</a></li>
-       <li><a href="#">Гостиницы</a></li>
+       <li>Гостиницы</li>
      </ul>
  </nav>
 </header>
@@ -30,7 +30,7 @@
        <legend>Инфраструктура:</legend>
        <ul>
          <li>
-         <input type="checkbox" name="Бассейн" id="filter-baxter-of-california" checked>
+         <input type="checkbox" name="Бассейн" id="filter-бассейн" checked>
             <label for="filter-бассейн">Бассейн</label>
          </li>
          <li>
@@ -60,10 +60,6 @@
      </fieldset>
      <button type="submit">Показать</button>
    </form>
-  </section>
-
-  <section>
-    <h2>Результаты поиска </h2>
     <ul>
       <li>
       <a href="#">
@@ -77,8 +73,6 @@
       </p>
       <p>
         от 4000 ₽
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
       </p>
       </li>
       <li>
@@ -93,8 +87,6 @@
       </p>
       <p>
         от 3000 ₽
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
       </p>
       </li>
       <li>
@@ -109,10 +101,12 @@
       </p>
       <p>
         от 2000 ₽
-        <button type="button">Подробнее</button>
-        <button type="button">Забронировать</button>
       </p>
       </li>
+      <div>
+       <button type="button">Подробнее</button>
+       <button type="button">Забронировать</button>
+      </div>
     </ul>
   </section>
 </main>
@@ -121,7 +115,7 @@
       <h2>Телефон</h2>
       <a href="#">#VisitSedona</a>
       <br>
-      <a href="#">Тел.:+74956660166</a>
+      <a href="Тел.:+74956660166"></a>
     </section>
 
     <section>
