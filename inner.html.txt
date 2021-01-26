@@ -3,13 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="icon.png" type="image/png+×ml">
+    <link rel="apple-touch-icon" href="180.png">
+    <link rel="manifest" href="manifest.webmanifest">
   </head>
   <body>
 
 <header>
  <nav>
    <a href="index.html">
-    <img src="https://via.placeholder.com/150x100" alt="Логотип сайта «Седона»">
+    <img src="img/index.html/logo.svg" width="138" height="70"  alt="Логотип сайта «Седона»">
    </a>
    <ul>
        <li><a href="#">Информация</a></li>
@@ -134,7 +138,7 @@
     </section>
     <p>
       Website by
-      <a target="_blank" href="https://htmlacademy.ru">HTML Academy</a>
+      <a <img src="img/index.html/log.png" width="26" height="12" alt="Логотип htmlacademy">>HTML Academy</a>
     </p>
   </footer>
   </body>
