@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="icon.png" type="image/png+×ml">
+    <link rel="apple-touch-icon" href="180.png">
+    <link rel="manifest" href="manifest.webmanifest">
+  </head>
+  <body>
+
+<header>
+ <nav>
+   <a href="index.html">
+    <img src="img/indexhtml/logo.svg" width="138" height="70"  alt="Логотип сайта «Седона»">
+   </a>
+   <ul>
+       <li><a href="#">Информация</a></li>
+       <li><a href="#">Фото и видео</a></li>
+       <li><a href="#">Карта штата</a></li>
+       <li>Гостиницы</li>
+     </ul>
+ </nav>
+</header>
+
+<main>
+  <h1>Гостиницы</h1>
+
+  <section>
+   <h2>Поиск гостиницы</h2>
+   <form method="get" action="https://echo.htmlacademy.ru">
+     <fieldset>
+       <legend>Инфраструктура:</legend>
+       <ul>
+         <li>
+         <input type="checkbox" name="Бассейн" id="filter-бассейн" checked>
+            <label for="filter-бассейн">Бассейн</label>
+         </li>
+         <li>
+           <input type="checkbox" name="Парковка" id="filter-парковка">
+           <label for="filter-парковка">Парковка</label>
+         </li>
+         <li>
+           <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+           <label for="filter-wi-fi">Wi-fi</label>
+         </li>
+       <ul>
+     </fieldset>
+     <fieldset>
+       <legend>Тип жилья:</legend>
+       <li>
+            <input type="checkbox" name="Гостиница" id="filter-гостиница" checked>
+            <label for="filter-гостиница">Гостиница</label>
+          </li>
+          <li>
+            <input type="checkbox" name="Мотель" id="filter-мотель" checked>
+            <label for="filter-мотель">Мотель</label>
+          </li>
+          <li>
+            <input type="checkbox" name="Апартаменты" id="filter-апартаменты" checked>
+            <label for="filter-апартаменты">Апартаменты</label>
+          </li>
+     </fieldset>
+     <button type="submit">Показать</button>
+   </form>
+    <ul>
+      <li>
+      <a href="#">
+        <h3>Amara resort & spa</h3>
+        <p>
+          <img src="https://via.placeholder.com/150x100" alt="">
+        </p>
+      </a>
+      <p>
+       Гостиница
+      </p>
+      <p>
+        от 4000 ₽
+      </p>
+      </li>
+      <li>
+      <a href="#">
+        <h3>Desert quail inn</h3>
+        <p>
+          <img src="https://via.placeholder.com/150x100" alt="">
+        </p>
+      </a>
+      <p>
+       Мотель
+      </p>
+      <p>
+        от 3000 ₽
+      </p>
+      </li>
+      <li>
+      <a href="#">
+        <h3>Villas at poco diablo</h3>
+        <p>
+          <img src="https://via.placeholder.com/150x100" alt="">
+        </p>
+      </a>
+      <p>
+       Апартаменты
+      </p>
+      <p>
+        от 2000 ₽
+      </p>
+      </li>
+      <div>
+       <button type="button">Подробнее</button>
+       <button type="button">Забронировать</button>
+      </div>
+    </ul>
+  </section>
+</main>
+  <footer>
+    <section>
+      <h2>Телефон</h2>
+      <a href="#">#VisitSedona</a>
+      <br>
+      <a href="Тел.:+74956660166"></a>
+    </section>
+
+    <section>
+      <h2>Соц сети</h2>
+      <ul>
+        <li>
+          <a href="#">Твиттер</a>
+        </li>
+        <li>
+          <a href="#">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#">Ютуб</a>
+        </li>
+      </ul>
+    </section>
+    <p>
+      Website by
+      <a> <img src="img/indexhtml/log.png" width="26" height="12" alt="Логотип htmlacademy">>HTML Academy</a>
+    </p>
+  </footer>
+  </body>
+</html>
