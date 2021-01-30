@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
+    <link href="style.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="favicon/icon.svg" type="image/svg+×ml">
     <link rel="apple-touch-icon" href="favicon/180.png">
     <link rel="manifest" href="manifest.webmanifest">
   </head>
-  <body>
+  <body class="page-body">
 
-<header>
- <nav>
-   <a>
+<header class="main-header">
+ <nav class="main-navigation">
+   <a class="main-header-logo">
     <img src="img/logo.svg" width="138" height="70"  alt="Логотип сайта «Седона»">
    </a>
-   <ul>
+   <ul class="site-navigation">
        <li><a href="#">Информация</a></li>
        <li><a href="#">Фото и видео</a></li>
        <li><a href="#">Карта штата</a></li>
@@ -24,94 +27,94 @@
  </nav>
 </header>
 
-<main>
+<main class="container">
   <h1>Проект «Седона»</h1>
 
-  <section>
+  <section class="features">
     <h2>Приемущества</h2>
-    <ul>
-       <li>
+    <ul class="features-list">
+       <li class="feature-item">
          <a>
              <img src="img/image2.png" width="800" height="256" alt="Летняя веранда в Седоне">
          </a>
          <h3>Настоящий городок -№1-</h3>
          <p>Седона - не аттракцион для туристов,там течёт своя жизнь</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Жильё</h3>
          <p>Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Еда</h3>
          <p>Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Сувениры</h3>
         <p>Не только китайского,но и местного производства!</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Там есть мост дьявола -№2-</h3>
          <p>Да,по нему можно пройти!Если конечно осмелитесь</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Небольшая площадь -№3-</h3>
          <p>Все достопримечательности находятся очень близко</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Красивая дорога -№4-</h3>
          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
        </li>
-       <li>
+       <li class="feature-item">
          <h3>Мало туристов -№5-</h3>
          <p>Большинство едет в Гранд Каьон и толпится там</p>
        </li>
      </ul>
   </section>
 
-  <section>
+  <section class="interesting">
     <h2>Заинтересовались?</h2>
     <p>Укажите предполанаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
   </section>
 
-  <section>
+  <section class="search-hotel">
     <h2>Поиск гостиницы в седоне</h2>
-    <form action="https://echo.htmlacademy.ru/courses" method="post">
+    <form class="search-form" action="https://echo.htmlacademy.ru/courses" method="post">
     <div>
-      <label for="login-field">ДАТА ЗАЕЗДА:</label>
-      <input type="text" name="login" id="login-field">
-      <label for="password-field">ДАТА ВЫЕЗДА:</label>
-      <input type="password" name="password" id="password-field">
+      <label class="come-date" for="login-field">ДАТА ЗАЕЗДА:</label>
+      <input class="come-date" type="text" name="login" id="login-field">
+      <label class="arrive-date" for="password-field">ДАТА ВЫЕЗДА:</label>
+      <input class="arrive date" type="password" name="password" id="password-field">
     </div>
-      <input type="submit" value="НАЙТИ">
+      <input class="search" type="submit" value="НАЙТИ">
 
   </section>
 </main>
 
-<footer>
-  <section>
+<footer class="page-footer main-footer">
+  <section class="footer-contacts">
     <h2>Телефон</h2>
     <a href="#">#VisitSedona</a>
     <br>
-    <a href="tel:+74956660166"></a>
+    <a class="footer-phone" href="tel:+74956660166"></a>
   </section>
 
-  <section>
+  <section class="footer-social">
     <h2>Соц сети</h2>
     <ul>
       <li>
-        <a href="#">Твиттер</a>
+        <a class="social-button" href="#">Твиттер</a>
       </li>
       <li>
-        <a href="#">Фейсбук</a>
+        <a class="social-button" href="#">Фейсбук</a>
       </li>
       <li>
-        <a href="#">Ютуб</a>
+        <a class="social-button" href="#">Ютуб</a>
       </li>
     </ul>
   </section>
-  <p>
+  <p class="footer-copyright">
     Website by
-    <a> <img src="img/log.png" width="26" height="12" alt="Логотип htmlacademy">HTML Academy</a>
+    <a class="button"> <img src="img/log.png" width="26" height="12" alt="Логотип htmlacademy">HTML Academy</a>
   </p>
 </footer>
   </body>
