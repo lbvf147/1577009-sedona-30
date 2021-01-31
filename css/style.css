@@ -35,6 +35,16 @@ img {
     max-width: 100%;
     height: auto;
   }
+
+/* Main header */
+
+  .inner-page .main-header {
+  background-color: var(--basic-white);
+
+}
+
+/* Main navigation */
+
   .main-navigation {
   font-size: 16px;
   line-height: 20px;
@@ -122,6 +132,60 @@ img {
   cursor: default;
   opacity: 0.5;
   background-color: var(--basic-blue);
+}
+
+.inner-page {
+  color: var(--basic-white);
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.page-title {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+/* Search */
+
+.search legend {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.search ul {
+  list-style: none;
+  line-height: 18px;
+}
+
+.search-item-checkbox:hover + label,
+.search-list-checkbox:focus + label {
+  color: var(--basic-white);
+}
+
+/* Hotels */
+
+.name-list {
+  list-style: none;
+}
+
+.name-item {
+  background-color: var(--basic-white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+.name-item a {
+  color: var(--basic-black);
+}
+
+.name-item h3 {
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.name-item p {
+  color: var(--basic-light-gray:#333333;)
 }
 
 /*Main footer */
