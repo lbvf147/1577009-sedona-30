@@ -26,6 +26,7 @@ body {
   background-image: url("../img/bg.png");
   background-position: top center;
   background-repeat: no-repeat;
+}
 
 a {
     text-decoration: none;
@@ -40,7 +41,6 @@ img {
 
   .inner-page .main-header {
   background-color: var(--basic-white);
-
 }
 
 /* Main navigation */
