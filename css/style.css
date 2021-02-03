@@ -196,12 +196,52 @@ img {
   background-repeat: repeat;
 }
 
+.inner-page .main-navigation-wrapper {
+  grid-template-columns: 170px 1fr min-content;
+}
+
+.inner-page .main-header-logo {
+  order: 0;
+}
+
 .page-title {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
   font-size: 21px;
   line-height: 26px;
 }
 
+.filters{
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-content: start;
+  grid-column-gap: 100px;
+}
+
+.submit{
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  justify-self: end;
+}
+
+.hotels{
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
+  margin-left: 160px;
+}
 /* Search */
+
+.search {
+  grid-column: 1 / -1;
+  font: inherit;
+  color: var(--basic-black);
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  border: none;
+
+}
 
 .search legend {
   font-size: 16px;

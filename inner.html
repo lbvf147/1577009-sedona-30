@@ -18,21 +18,24 @@
     <a class="main-header-logo">
      <img src="img/logo.svg" width="138" height="70"  alt="Логотип сайта «Седона»">
     </a>
+    <div class="main-header-bar">
     <ul class="site-navigation">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и видео</a></li>
         <li><a href="#">Карта штата</a></li>
         <li>Гостиницы</li>
       </ul>
+    </div>
   </nav>
 </header>
 
 <main>
   <h1>Гостиницы</h1>
 
-  <section class="search-hotel">
+  <section class="search">
    <h2>Поиск гостиницы</h2>
    <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
+     <div class="filters">
      <fieldset>
        <legend>Инфраструктура:</legend>
        <ul class="search-list">
@@ -65,7 +68,8 @@
             <label class="apartment" for="filter-апартаменты">Апартаменты</label>
           </li>
      </fieldset>
-     <button type="submit">Показать</button>
+     </div>
+     <button class="submit" type="submit">Показать</button>
    </form>
     <ul class="name-list">
       <li class="name-item">
@@ -118,6 +122,7 @@
   </section>
 </main>
 <footer class="page-footer main-footer">
+  <div class="container">
   <section class="footer-contacts">
     <h2>Телефон</h2>
     <a href="#">#VisitSedona</a>
@@ -143,6 +148,7 @@
     Website by
     <a class="button"> <img src="img/log.png" width="26" height="12" alt="Логотип htmlacademy">HTML Academy</a>
   </p>
+  </div>
 </footer>
   </body>
 </html>
