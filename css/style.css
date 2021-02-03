@@ -79,8 +79,6 @@ img {
 
 .main-header-logo {
   justify-self: center;
-  outline: 5px solid rgba(255, 0, 0, 0.3);
-  outline-offset: -5px;
 }
 
 .main-header-bar {
@@ -125,7 +123,6 @@ img {
 
 .features {
   margin-bottom: 80px;
-  outline: 5px solid rgba(255, 0, 0 , 0.3);
 }
 
 .features-list {
