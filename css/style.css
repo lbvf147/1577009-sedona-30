@@ -220,7 +220,8 @@ img {
 
 .bottom-paragraph{
   font-weight: 400;
-  max-width: 255
+  max-width: 255px;
+  text-align: center;
 }
 /* Interesting */
 
