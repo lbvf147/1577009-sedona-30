@@ -218,6 +218,10 @@ img {
 
 }
 
+.bottom-paragraph{
+  font-weight: 400;
+  max-width: 255
+}
 /* Interesting */
 
 .interesting {
