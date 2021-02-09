@@ -335,10 +335,14 @@ img {
 /* Hotels */
 
 .name-list {
+  outline: 5px solid rgba(0, 255, 255, 0.7);
+  outline-offset: -5px;
   list-style: none;
 }
 
 .name-item {
+  outline: 5px solid rgba(201, 76, 76, 0.3);
+  outline-offset: -5px;
   background-color: var(--basic-white);
 }
 
