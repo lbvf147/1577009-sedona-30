@@ -359,6 +359,15 @@ img {
   color: var(--basic-light-gray:#333333;)
 }
 
+.rating{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.star{
+  display: flex;
+  justify-content: flex-end;
+}
 /*Main footer */
 
 .main-footer {
