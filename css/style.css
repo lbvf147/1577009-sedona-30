@@ -368,6 +368,36 @@ img {
   display: flex;
   justify-content: flex-end;
 }
+
+.name-one{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+}
+ .name-two{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+ }
+ .name-three{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+ }
+
+ .detalied{
+  background-color:#81B3D2;
+  color: #ffffff;
+ }
+
+ .book{
+  background-color: #766357;
+  color: #ffffff
+ }
+
 /*Main footer */
 
 .main-footer {
