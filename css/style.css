@@ -286,6 +286,10 @@ img {
   line-height: 26px;
 }
 
+.page-body {
+  box-shadow: 0px 5px 15px rgba(0, 1, 1, 0.2);
+}
+
 .filters{
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -340,23 +344,24 @@ img {
 }
 
 .name-list {
-  outline: 5px solid rgba(0, 255, 255, 0.7);
-  outline-offset: -5px;
-  list-style: none;
-  display: flex;
+width: 100%;
 }
 
 .item {
-  justify-content: space-between;
+  display: flex;
+  height: 100%;
   width: 100%;
-  padding: 30px 73px;
-  box-sizing: border-box;
-  border-bottom: 1px solid #E5E5E5;
-
-  outline: 5px solid rgba(201, 76, 76, 0.3);
-  outline-offset: -5px;
+  justify-content: space-between;
+  min-height: 90px;
   background-color: var(--basic-white);
+  padding: 30px;
+  box-sizing: border-box;
+  color: var(--basic-black);
+  border-bottom: 1px solid var(--basic-gray);
+}
 
+.item:first-of-type {
+  border-top: 1px solid var(--basic-gray);
 }
 
 .item a {
@@ -364,20 +369,36 @@ img {
 }
 
 .item h3 {
+  margin: 0;
   font-size: 21px;
   line-height: 26px;
 
 }
 
 .item p {
+  max-width: 111px;
+  width: 100%;
+  margin: 0;
   font-weight: 400;
-  display: flex;
-  color: var(--basic-light-gray:#333333;)
+  color: var(--basic-light-gray);
 }
 
-.rating{
+.item p:first-of-type {
+   margin-right: 5px;
+ }
+
+.rating {
   display: flex;
-  justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.rating p.raiting-name {
+  margin-right: 0;
+  background: #F2F2F2;
+  padding: 3px 10px;
+  text-align: center;
 }
 
 .star{
@@ -386,11 +407,11 @@ img {
 }
 
 .info-wrapper{
-        max-width: 425px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        align-items: flex-end;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
 
 
 }
@@ -415,9 +436,14 @@ padding: 5.5px 24px;
 font-weight: bold;
  }
 
-/*.info{
-  margin-left:;
-}*/
+.info{
+  min-height: 90px;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 .button{
@@ -426,7 +452,11 @@ font-weight: bold;
 
 .main-info{
   display: flex;
-  justify-content: space-around;
+}
+
+.image{
+  display: flex;
+    flex: 0 0 auto;
 }
 /*Main footer */
 
