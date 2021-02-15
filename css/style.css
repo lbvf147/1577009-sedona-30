@@ -45,6 +45,20 @@ img {
     height: auto;
   }
 
+  .visually-hiddenss {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
 /* Grid */
 
   .page {
@@ -79,7 +93,11 @@ img {
 /* Logo */
 
 .main-header-logo {
-  justify-self: center;
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+  margin: 0 auto;
 }
 
 .main-header-bar {
@@ -97,6 +115,7 @@ img {
 
 .site-navigation {
   display: flex;
+  align-items: flex-end;
   justify-content: space-around;
   margin: 0;
   padding: 0;
@@ -113,6 +132,7 @@ img {
 .site-navigation a,
 .user-navigation a {
   color: var(--basic-black);
+/*  padding: 85px*/
 }
 
 .site-navigation a:hover,
@@ -122,6 +142,13 @@ img {
   background-color: var(--basic-white);
 }
 
+.inf{
+  position: static;
+  top: 14px
+
+  left: 73px;
+
+}
 /* Features */
 
 .first-block{
@@ -476,10 +503,13 @@ font-weight: bold;
 }
 
 .footer-phone {
+  margin-top: auto;
   color: inherit;
 }
 
 .footer-contacts a {
+  font-weight: 700;
+  font-size: 21px;
   margin: 0;
   width: 320px;
   color: var(--basic-black);
@@ -498,6 +528,12 @@ font-weight: bold;
 }
 
 .footer-social ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+ margin: 0 auto;
+ padding: 0;
   list-style: none;
 }
 
@@ -509,15 +545,29 @@ font-weight: bold;
 /* Social button */
 
 .social-button {
+  display: flex;
+align-items: center;
+justify-content: center;
+
+  width: 43px;
+  height: 43px;
+  background-color:#81B3D2;
   color: inherit;
+}
+
+
+.social-button::before{
+  opacity: 10;
 }
 
 .social-button:hover,
 .social-button:focus {
-  background-color: var(--basic-white);
+  opacity: 10;
 }
 
 .footer-copyright {
+  display: flex;
+  justify-content: space-between;
   max-width: 150px;
   margin: 0;
   justify-self: end;
