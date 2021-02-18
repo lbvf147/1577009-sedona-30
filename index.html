@@ -105,18 +105,61 @@
     <p>Укажите предполанаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
   </section>
 
-  <section class="search-hotel">
+<!--  <section class="search-hotel">
     <h2>Поиск гостиницы в седоне</h2>
     <form class="search-form" action="https://echo.htmlacademy.ru/courses" method="post">
-    <div>
+    <div class="apointment-form">
       <label class="come-date" for="login-field">ДАТА ЗАЕЗДА:</label>
-      <input class="come-date" type="text" name="login" id="login-field">
+      <input class="come-date" type="text" name="login" id="login-field" placeholder="24 апреля 2017">
       <label class="arrive-date" for="password-field">ДАТА ВЫЕЗДА:</label>
-      <input class="arrive date" type="password" name="password" id="password-field">
+      <input class="arrive date" type="password" name="password" id="password-field" placeholder="4 июля 2017">
+      <p>
+        Взрослые:
+      </p>
+      <input class="come-date" type="number" placeholder="2">
+      <p>
+      Дети:
+      </p>
+      <input class="come-date" type="number" placeholder="0">
     </div>
       <input class="search" type="submit" value="НАЙТИ">
+    </form>
+  </section> -->
 
+
+
+
+  <section class="modal-login">
+  <h2>Поиск гостиницы в седоне</h2>
+    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label  for="login-login">Дата заезда:</label>
+        <input class="login-icon-user" id="login-login" type="email" name="login" placeholder="24 апреля 2017">
+      </p>
+      <p>
+        <label  for="login-login">Дата выезда:</label>
+        <input class="login-icon-user" id="login-login" type="email" name="login" placeholder="24 апреля 2017">
+      </p>
+      <div class="plus-minus">
+      <p class="adults">
+        Взрослые:
+      </p>
+      <div class="box">
+      <input class="come-date" type="number" placeholder="2">
+      <button class="modal-plus" type="button" aria-label="Плюс"></button>
+      <button class="modal-minus" type="button" aria-label="Минус"></button>
+    </div>
+      <p class="children">
+      Дети:
+      </p>
+      <input class="come-date" type="number" placeholder="0">
+      <button class="modal-plus" type="button" aria-label="Плюс"></button>
+      <button class="modal-minus" type="button" aria-label="Минус"></button>
+    </div>
+      <button class="found" type="submit">Найти</button>
+    </form>
   </section>
+
 </main>
 
 <footer class="page-footer main-footer">
@@ -125,7 +168,7 @@
     <h2 class="visually-hidden">Телефон</h2>
     <a href="#">#VisitSedona</a>
     <br>
-    <a class="footer-phone" href="tel:+74956660166">Тел:+74956660166</a>
+    <a class="footer-phone" href="tel:+74956660166">Тел:+7(495) 666-01-66</a>
   </section>
 
   <section class="footer-social">
