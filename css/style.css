@@ -162,6 +162,57 @@ img {
   left: 73px;
 
 }
+
+/*background*/
+
+.welcome{
+  position: absolute;
+  top: 131px;
+  left:500px;
+}
+
+.to-the{
+  position: absolute;
+  top: 190px;
+  left:472px
+}
+
+.sedona{
+  position: absolute;
+  top: 270px;
+  left: 371px;
+}
+
+.pattern{
+  position: absolute;
+  top: 508px;
+  left: auto;
+
+}
+
+.description {
+  padding-top:  42px;
+  padding-bottom: 51px;
+  width: 465px;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+  background-image: url("../img/bg.png");
+  background-position: center, 0 0;
+  background-repeat: no-repeat, repeat;
+}
+
+.description p {
+font-weight: normal;
+}
+
+.description h2 {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+
 /* Features */
 
 .first-block{
