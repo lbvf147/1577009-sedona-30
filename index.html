@@ -129,33 +129,37 @@
 
 
 
-  <section class="modal-login">
+  <section class="modal">
   <h2>Поиск гостиницы в седоне</h2>
-    <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-      <p>
-        <label  for="enter-date">Дата заезда:</label>
-        <input class="login-icon-user" id="enter-date" type="text" name="enter-date" placeholder="24 апреля 2017">
+    <form class="booked-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="input-label">
+        <label class="label-date" for="enter-date">Дата заезда:</label>
+        <input class="icon-date" id="enter-date" type="text" name="enter-date" placeholder="24 апреля 2017">
       </p>
-      <p>
-        <label  for="exit-date">Дата выезда:</label>
-        <input class="login-icon-user" id="exit-date" type="text" name="exit-date" placeholder="24 апреля 2017">
+      <p class="input-label">
+        <label class="label-date" for="exit-date">Дата выезда:</label>
+        <input class="icon-date" id="exit-date" type="text" name="exit-date" placeholder="24 апреля 2017">
       </p>
       <div class="plus-minus">
-      <p class="adults">
-        Взрослые:
-      </p>
+        <div class="block">
+          <p class="people">
+           Взрослые:
+          </p>
       <div class="box">
-      <input class="come-date" type="number" placeholder="2">
       <button class="modal-plus" type="button" aria-label="Плюс"></button>
+        <input class="come-date" type="number" placeholder="2">
       <button class="modal-minus" type="button" aria-label="Минус"></button>
+     </div>
     </div>
-      <p class="children">
+    <div class="block">
+      <p class="kids">
       Дети:
       </p>
-      <input class="come-date" type="number" placeholder="0">
       <button class="modal-plus" type="button" aria-label="Плюс"></button>
+      <input class="come-date" type="number" placeholder="0">
       <button class="modal-minus" type="button" aria-label="Минус"></button>
     </div>
+  </div>
       <button class="found" type="submit">Найти</button>
     </form>
   </section>

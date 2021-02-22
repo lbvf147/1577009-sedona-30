@@ -269,13 +269,13 @@ img {
 /* Interesting */
 
 
-.modal-login{
+.modal{
   position: relative;
   margin: 0 auto;
   width: 568px;
 }
 
-.modal-login h2{
+.modal h2{
   text-align: center;
     color: var(--basic-white);
   background-color: #766357;
@@ -283,7 +283,7 @@ img {
   margin: 0;
   }
 
-.login-form{
+.booked-form{
   position: absolute;
       background: white;
       width: 100%;
@@ -291,13 +291,13 @@ img {
       box-sizing: border-box;
 }
 
-.login-form p {
+.booked-form p {
   margin: 0;
   margin-bottom: 10px;
 }
 
-.login-form input[type="email"],
-.login-form input[type="password"] {
+.booked-form input[type="email"],
+.booked-form input[type="password"] {
   box-sizing: border-box;
   width: 300px;
   padding-top: 5px;
@@ -311,30 +311,39 @@ img {
 
 }
 
-.login-form input:focus {
+.booked-form input:focus {
   border-color: var(--special);
 }
 
-.login-form .login-help {
+.booked-form .login-help {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 15px 0;
 }
 
-.login-icon-user {
+.icon-date {
   background-image: url("img/calendar.png");
   background-position: 270px 50%;
   background-size: 13px;
  background-repeat: no-repeat;
+ border: none;
+   background: #F2F2F2;
+   padding: 11px 13px;
+   font-weight: bold;
+   width: 100%;
 }
 
-.login-icon-password {
-  background-image: url("img/calendar.png");
-  background-position: 270px 50%;
-  background-size: 13px;
- background-repeat: no-repeat;
+.label-date{
+  width: 100px;
+  flex: 0 0 auto;
 }
+
+.input-label{
+  display: flex;
+  align-items: center;
+}
+/*
 
 .login-checkbox {
   position: relative;
@@ -380,8 +389,9 @@ img {
 .login-checkbox input[type="checkbox"]:checked + .checkbox-indicator::after {
   transform: rotate(-45deg);
 }
-
+*/
  .found {
+   border: none;
    color: #ffffff;
    font-weight: 700;
    text-transform: uppercase;
@@ -393,29 +403,26 @@ img {
 }
 
 .box{
-
-  background: #F2F2F2;
-  padding: 30px 10px;
-  width: 50px;
-  text-align: center;
+  display: flex;
+      height: 38px;
+      align-items: center;
 }
 
-.modal-plus {
-  width: 32px;
-  height: 22px;
-  background-color: transparent;
+.modal-plus, .modal-minus {
   border: 0;
-  cursor: pointer;
-  position: absolute;
-  left: 200px
+    background-color: #F2F2F2;
+    width: 32px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 0;
 }
 .modal-plus::before,
 .modal-plus::after {
   content: "";
   position: absolute;
-  top: 10;
-  left: 2;
-  width: 19px;
+  width: 12px;
   height: 3px;
   background-color: #A9A9A9;
 }
@@ -429,14 +436,7 @@ img {
 }
 
 
-.modal-minus{
-  position: absolute;
-  left:110px;
-  border: 0;
-background-color: transparent;
-width: 32px;
-height: 22px;
-}
+
 
 /*.modal-minus {
   width: 32px;
@@ -451,27 +451,46 @@ height: 22px;
 .modal-minus::after {
   content: "";
   position: absolute;
-  top: 10;
-  left: 2;
-  width: 19px;
+  width: 12px;
   height: 3px;
   background-color: #A9A9A9;
 }
 
 .come-date{
-  position: absolute;
-  left: 150px;
+  height: 38px;
+     box-sizing: border-box;
+     border: 0;
+     background: #F2F2F2;
+     max-width: 36px;
+     text-align: center;
+     font-weight: bold;
+}
 
-  width: 50px;
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .plus-minus{
-  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 
 }
 
-.children{
+.block{
+  display: flex;
+ align-items: center;
+}
+
+.people{
+  display: block;
+    margin-bottom: 0;
+    width: 100px;
+}
+
+.kids{
+  width: 50px;
   display: flex;
   justify-content: flex-start;
 }
@@ -481,6 +500,8 @@ height: 22px;
 
 
 .interesting {
+  padding-top:  58px;
+  padding-bottom: 24px;
   width: 465px;
   margin: 0 auto;
   text-align: center;
