@@ -6,7 +6,7 @@
   --basic-light-gray:#333333;
   --basic-light-brown:#766458;
   --basic-blue:#81B3D3;
-  --basic-blue:#81B3D2;
+  --basic-blue-2:#81B3D2;
   --special: #669EC0;
   --basic-dark:#F2F2F2;
 }
@@ -216,7 +216,7 @@ font-weight: normal;
 white-space: nowrap;
 }
 
-.description h2 {
+.description h3 {
   text-align: center;
   font-size: 21px;
   line-height: 24px;
@@ -872,7 +872,7 @@ font-weight: bold;
   font-weight: 700;
   font-size: 21px;
   margin: 0;
-  margin-left: -20px
+  margin-left: -20px;
   width: 320px;
   color: var(--basic-black);
   text-decoration: none;
