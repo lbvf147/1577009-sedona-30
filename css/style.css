@@ -211,14 +211,14 @@ img {
 
 .description p {
 padding-top: 16px;
-
+font-size: 14px;
 font-weight: normal;
 white-space: nowrap;
 }
 
 .description h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 21px;
   line-height: 24px;
 }
 
