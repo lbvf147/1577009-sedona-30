@@ -722,8 +722,112 @@ padding: 40px 86px
 /* Hotels */
 
 .class{
+  padding: 29px 72px;
+  color: #000000;
   display: flex;
   justify-content: space-between;
+}
+
+.searched{
+  position: absolute;
+  left: 113px;
+  top: 302px;
+}
+
+.sort{
+  font-weight: 400;
+  position: absolute;
+  left: 276px;
+  top: 304px;
+}
+
+.cost{
+  font-weight: 400;
+  color: #81B3D2;
+  position: absolute;
+  left: 391px;
+  top: 305px;
+}
+
+.type{
+  text-decoration: none;
+    border-bottom: 1px dashed #81B3D2;
+  opacity: .3;
+  position: absolute;
+  left: 472px;
+  top: 304px;
+}
+.type:hover {
+    color: #81B3D2;
+   }
+
+.rate{
+  opacity: .3;
+  position: absolute;
+  left: 554px;
+  top: 305px;
+}
+
+.things{
+  display: flex;
+  justify-content: space-between;
+}
+
+.triangle{
+  position: absolute;
+  top: 320px;
+  right: 73px;
+  border: 11px solid transparent;
+border-top: 10px solid #CACACA;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
+width: 0;
+height: 0;
+background-color: #ffffff;
+}
+
+.triangle::before {
+  content: "";
+  position: absolute;
+  top: 330px;
+  right: 96px;
+  width: 12px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.trianglee{
+  position: absolute;
+  top: 320px;
+  right: 96px;
+  border: 11px solid transparent;
+border-bottom: 10px solid #81B3D2;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0;
+width: 0;
+height: 0;
+background-color: #ffffff;
+
+}
+
+.trianglee::before {
+  content: "";
+  position: absolute;
+  top: 330px;
+  right: 70px;
+  width: 12px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+.triangles{
+  display: flex;
+  align-items:center;    
+  width: auto;
 }
 
 .name-list {
