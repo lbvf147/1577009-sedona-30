@@ -722,40 +722,48 @@ padding: 40px 86px
 /* Hotels */
 
 .class{
+  width: 50%;
   padding: 29px 72px;
   color: #000000;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
+.words{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
 .searched{
-  position: absolute;
+  font-size: 21px;
+  /*position: absolute;
   left: 113px;
-  top: 302px;
+  top: 302px;*/
 }
 
 .sort{
   font-weight: 400;
-  position: absolute;
+  /*position: absolute;
   left: 276px;
-  top: 304px;
+  top: 304px;*/
 }
 
 .cost{
   font-weight: 400;
   color: #81B3D2;
-  position: absolute;
+/*  position: absolute;
   left: 391px;
-  top: 305px;
+  top: 305px;*/
 }
 
 .type{
   text-decoration: none;
     border-bottom: 1px dashed #81B3D2;
   opacity: .3;
-  position: absolute;
+  /*position: absolute;
   left: 472px;
-  top: 304px;
+  top: 304px;*/
 }
 .type:hover {
     color: #81B3D2;
@@ -763,22 +771,24 @@ padding: 40px 86px
 
 .rate{
   opacity: .3;
-  position: absolute;
+  /*position: absolute;
   left: 554px;
-  top: 305px;
+  top: 305px;*/
 }
 
 .things{
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
 .triangle{
-  position: absolute;
+ position: absolute;
   top: 320px;
   right: 73px;
-  border: 11px solid transparent;
-border-top: 10px solid #CACACA;
+/*  border: 11px solid transparent;
+border-top: 10px solid #CACACA;*/
 display: flex;
 align-items: center;
 justify-content: center;
@@ -788,22 +798,22 @@ height: 0;
 background-color: #ffffff;
 }
 
-.triangle::before {
+/*.triangle::before {
   content: "";
-  position: absolute;
+/*  position: absolute;
   top: 330px;
-  right: 96px;
-  width: 12px;
+  right: 96px;*/
+  /*width: 12px;
   height: 3px;
   background-color: #ffffff;
-}
+}*/
 
 .trianglee{
-  position: absolute;
+/*  position: absolute;
   top: 320px;
-  right: 96px;
-  border: 11px solid transparent;
-border-bottom: 10px solid #81B3D2;
+  right: 96px;*/
+/*  border: 11px solid transparent;
+border-bottom: 10px solid #81B3D2;*/
 display: flex;
 align-items: center;
 justify-content: center;
@@ -816,9 +826,9 @@ background-color: #ffffff;
 
 .trianglee::before {
   content: "";
-  position: absolute;
+  /*position: absolute;
   top: 330px;
-  right: 70px;
+  right: 70px;*/
   width: 12px;
   height: 3px;
   background-color: #ffffff;
@@ -826,7 +836,7 @@ background-color: #ffffff;
 
 .triangles{
   display: flex;
-  align-items:center;    
+  align-items:center;
   width: auto;
 }
 
@@ -842,6 +852,8 @@ width: 100%;
   min-height: 90px;
   background-color: var(--basic-white);
   padding: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   box-sizing: border-box;
   color: var(--basic-black);
   border-bottom: 1px solid var(--basic-gray);
