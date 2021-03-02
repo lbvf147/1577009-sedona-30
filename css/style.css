@@ -783,61 +783,37 @@ padding: 40px 86px
   align-items: center;
 }
 
-.triangle{
- position: absolute;
-  top: 320px;
-  right: 73px;
-/*  border: 11px solid transparent;
-border-top: 10px solid #CACACA;*/
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 0;
-width: 0;
-height: 0;
-background-color: #ffffff;
-}
-
-/*.triangle::before {
-  content: "";
-/*  position: absolute;
-  top: 330px;
-  right: 96px;*/
-  /*width: 12px;
-  height: 3px;
-  background-color: #ffffff;
-}*/
-
-.trianglee{
-/*  position: absolute;
-  top: 320px;
-  right: 96px;*/
-/*  border: 11px solid transparent;
-border-bottom: 10px solid #81B3D2;*/
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 0;
-width: 0;
-height: 0;
-background-color: #ffffff;
+.arrow-up{
+  background-image: url("img/gray.png");
+width: 10;
+height: 11;
 
 }
 
-.trianglee::before {
-  content: "";
-  /*position: absolute;
-  top: 330px;
-  right: 70px;*/
-  width: 12px;
-  height: 3px;
-  background-color: #ffffff;
+.arrow-up:hover{
+
 }
+
+
+.arrow-down{
+background-image: url("img/blue.png");
+width: 10;
+height: 11;
+
+
+}
+
+.arrow-down:hover{
+
+}
+
+
 
 .triangles{
   display: flex;
   align-items:center;
   width: auto;
+  padding-right: 72px;
 }
 
 .name-list {
@@ -852,8 +828,8 @@ width: 100%;
   min-height: 90px;
   background-color: var(--basic-white);
   padding: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 72px;
+  padding-right: 72px;
   box-sizing: border-box;
   color: var(--basic-black);
   border-bottom: 1px solid var(--basic-gray);
