@@ -694,9 +694,10 @@ padding: 40px 86px
 /* Search */
 
 .search {
+  background-image: url("../img/background.png");
   grid-column: 1 / -1;
   font: inherit;
-  color: var(--basic-black);
+  color: var(--basic-white);
   vertical-align: middle;
   text-transform: uppercase;
   background-color: var(--basic-white);
@@ -719,6 +720,32 @@ padding: 40px 86px
   color: var(--basic-white);
 }
 
+
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label,
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+    /*background-image: url("../img/checkbox-off.png");*/
+}
+
+.pool{
+  background-image: url("../img/checkbox-off.png")
+}*/
 /* Hotels */
 
 .class{
@@ -784,9 +811,11 @@ padding: 40px 86px
 }
 
 .arrow-up{
-  background-image: url("img/gray.png");
-width: 10;
-height: 11;
+  margin-right: 12px;
+  background-repeat:no-repeat;
+  background-image: url("../img/gray.png");
+width: 11px;
+height: 10px;
 
 }
 
@@ -796,9 +825,10 @@ height: 11;
 
 
 .arrow-down{
-background-image: url("img/blue.png");
-width: 10;
-height: 11;
+  background-repeat: no-repeat;
+background-image: url("../img/blue.png");
+width: 11px;
+height: 10px;
 
 
 }
