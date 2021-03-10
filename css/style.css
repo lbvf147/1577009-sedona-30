@@ -705,6 +705,11 @@ padding: 40px 86px
 
 }
 
+.search-list{
+  font-size: 14px;
+  font-weight: 400;
+}
+
 fieldset{
   border: none;
 }
@@ -779,12 +784,16 @@ input[type="checkbox"]:not(:checked) + label{
 
 
 .infrastructure{
+  font-weight: 700;
+  font-size: 16px;
   margin-top: 26px;
   margin-left: 72px;
 
 }
 
 .hotels{
+  font-weight: 700;
+  font-size: 16px;
   margin-top: 26px;
     margin-left: 119px;
 }
