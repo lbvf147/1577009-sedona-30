@@ -18,7 +18,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif,"italic","Bold";
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
@@ -694,7 +694,7 @@ padding: 40px 86px
 /* Search */
 
 .search {
-  background-image: url("../img/background.png");
+  background-image: url("../img/background.png") ;
   grid-column: 1 / -1;
   font: inherit;
   color: var(--basic-white);
@@ -703,6 +703,10 @@ padding: 40px 86px
   background-color: var(--basic-white);
   border: none;
 
+}
+
+.search-form{
+  background-repeat: no-repeat;
 }
 
 .search-list{
@@ -762,7 +766,7 @@ input[type="checkbox"]:checked + label{
     padding-left: 33px;
     line-height: 20px;
     cursor: pointer;
-    width: 0px;
+    /*width: 0px;*/
     height: 24px;
 background-image: url("../img/checkbox-on.png")
 }
@@ -776,7 +780,7 @@ input[type="checkbox"]:not(:checked) + label{
     line-height: 20px;
     cursor: pointer;
 
-    width: 0px;
+    /*width: 0px;*/
     height: 24px;
   background-image: url("../img/checkbox-off.png")
 }
@@ -786,40 +790,46 @@ input[type="checkbox"]:not(:checked) + label{
 .infrastructure{
   font-weight: 700;
   font-size: 16px;
-  margin-top: 26px;
-  margin-left: 72px;
+  margin-top: 23px;
+  margin-left: 61px;
 
 }
 
 .hotels{
   font-weight: 700;
   font-size: 16px;
-  margin-top: 26px;
-    margin-left: 119px;
+  margin-top: 22px;
+    margin-left: 35px;
 }
 
 .pool{
 margin-top: 24px;
+margin-left: 20px;
 }
 
 .parking{
-  margin-top: 25px;
+  margin-top: 22px;
+  margin-left: 20px;
 }
 
 .internet{
-  margin-top: 25px;
+  margin-top: 21px;
+  margin-left: 20px;
 }
 
 .hotel{
   margin-top: 24px;
+  margin-left: -5px;
 }
 
 .motel{
-margin-top: 25px;
+margin-top: 24px;
+margin-left: -5px;
 }
 
 .apartment{
-margin-top: 25px;
+margin-top: 21px;
+margin-left: -5px;
 }
 /* Hotels */
 
